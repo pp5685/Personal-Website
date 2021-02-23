@@ -32,7 +32,7 @@ class League_Rank(models.Model):
     summoner_name = models.CharField(max_length=100)
     summoner_id = models.CharField(max_length=255)
     tier = models.CharField(max_length=20)
-    rank = models.CharField(max_length=2)
+    rank = models.CharField(max_length=3)
     wins = models.IntegerField()
     losses = models.IntegerField()
     league_points = models.IntegerField()

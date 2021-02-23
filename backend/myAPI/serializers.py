@@ -21,7 +21,7 @@ class HobbySerializer(serializers.HyperlinkedModelSerializer):
         fields = '__all__'
 
 
-class League_RankSerializer(serializers.HyperlinkedModelSerializer):
+class League_RankSerializer(serializers.ModelSerializer):
     class Meta:
         model = League_Rank
         fields = '__all__'
