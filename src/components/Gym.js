@@ -26,7 +26,7 @@ const Gym = () => {
         </video>
       </Modal>
 
-      <h4 className="ui centered header" style={{ "margin-top": "80px" }}>
+      <h4 className="ui centered header" style={{ "margin-top": "90px" }}>
         Weight Lifting
       </h4>
     </div>

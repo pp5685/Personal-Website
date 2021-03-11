@@ -86,10 +86,7 @@ const Contact = () => {
           "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
         },
       }
-    )
-      .then((res) => res.json())
-      //need to set verified to proper response message from json
-      .then((json) => setVerified(true));
+    ).then((res) => setVerified(res.ok));
   };
   const onCaptchaExpire = (token) => {
     setToken("");
