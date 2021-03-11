@@ -6,7 +6,7 @@ import requests
 
 def get_rank(summoner_name):
 
-    headers = {"X-Riot-Token": "RGAPI-49e74650-2a36-42eb-9a8c-d05accd5b527"}
+    headers = {"X-Riot-Token": "RGAPI-1c4714f7-aa76-46ca-984f-112e8f8ab6d5"}
     summoner_url = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+summoner_name
 
     summoner_response = requests.get(summoner_url, headers=headers).json()

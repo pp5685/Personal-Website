@@ -4,6 +4,7 @@ const LolRank = () => {
   const [summonerId, setSummonerId] = useState("");
   useEffect(async () => {
     const response = await axios.get(`http://127.0.0.1:8000/league/`);
+    console.log(response);
     setSummonerId(response.data.summoner_name);
   });
   return (

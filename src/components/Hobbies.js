@@ -1,28 +1,21 @@
 import LolRank from "./LolRank";
-
+import Basketball from "./Basketball";
+import Hiking from "./Hiking";
+import Gym from "./Gym";
 const Hobbies = () => {
   return (
     <div className="ui four column grid">
       <div className="column">
-        <i className="huge basketball ball icon">
-          <h4>Basketball</h4>
-        </i>
+        <Gym />
       </div>
       <div className="column">
-        <i className="huge volleyball ball icon">
-          {" "}
-          <h4>Basketball</h4>
-        </i>
+        <Hiking />
       </div>{" "}
       <div className="column">
-        <i className="huge basketball ball icon">
-          <h4>Basketball</h4>
-        </i>
+        <Basketball />
       </div>{" "}
       <div className="column">
-        <i className="huge basketball ball icon">
-          <LolRank />
-        </i>
+        <LolRank />
       </div>
     </div>
   );
